@@ -1,0 +1,10 @@
+data:
+  name: random-clusters
+  title: Random clusters baseline
+  description: Random cluster assignment baseline
+  script: random_clusters.py
+  inputs:
+    - data
+    - clusters_truth_num
+  outputs:
+    template: "{output_dir}/{name}_clusters.txt"
