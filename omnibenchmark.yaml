@@ -1,4 +1,4 @@
-data:
+method:
   name: random-clusters
   title: Random clusters baseline
   description: Random cluster assignment baseline
